@@ -66,7 +66,7 @@ test.describe('Admin Module - Full Flow', () => {
     await loginPage.login('Admin', 'admin123');
     await dashboardPage.searchMenu('Admin');
     await adminPage.searchUser('ESS', 'Sonu Diwakar', 'Disabled', 'sonu12345');
-    await adminPage.deleteUser(); // Ensure deleteUser() is implemented properly
+    await adminPage.deleteUser();
   });
 
 });
