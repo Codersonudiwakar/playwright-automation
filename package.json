@@ -1,0 +1,25 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation project",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "test:codegen": "playwright codegen",
+    "test:install": "playwright install",
+    "test:update": "playwright test --update-snapshots"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.29"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+  
+}
